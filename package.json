@@ -1,0 +1,18 @@
+{
+  "name": "card-scout-backend",
+  "version": "2.1.0",
+  "description": "Card Scout Pokemon card market tracker backend with auth + TCG search proxy",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
